@@ -75,6 +75,32 @@ section {
   margin-right: 0px;
 } */
 
+.menuButton{
+
+  display: inline-block;
+  position: relative;
+  color: #000000;
+}
+
+.menuButton:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.menuButton:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
 .projmenuContainer {
   display: flex;
   height: 430px;
