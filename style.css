@@ -286,8 +286,8 @@ border-radius: 9px;
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
   margin-right: 100px;
-  background-color: rgb(212, 7, 7);
-  color: rgb(180, 3, 3);
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
 }
 
 /* Style the back side */
@@ -318,25 +318,6 @@ line-height:25px;
   font-size: 16px;
 }
 
-.left {
-  width: 100%;
-  /* float: left; */
-  /* height: 50px; */
-  /* margin-left: 1px; */
-  /* position:relative; */
-}
-
-.right {
-  /* background-color: aquamarine; */
-  /* width: 100%; */
-  /* float: right; */
-  /* height: 500px; */
-  /* margin-left: 5%; */
-  /* width: 50%; */
-  text-align: left;
-  font-size: 1em;
-  color: rgb(163, 2, 2);
-}
 
 
 
